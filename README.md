@@ -37,7 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Deployed Website :
 
-Github URL:
+Github URL: https://github.com/ReemMDA99/my-portfolio
 
 ## Languages used:
 -HTML
