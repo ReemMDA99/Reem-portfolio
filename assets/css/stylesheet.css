@@ -1,0 +1,264 @@
+:root {
+    --textcolor: #fff;
+    --bgcolor0: #073b3f;
+    --bgcolor1: #127c7e;
+    --bgcolor2: #90ceca;
+    --bgcolor3: aquamarine;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+ 
+  body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background: var(--bgcolor0);
+  }
+  
+  header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--bgcolor1);
+    color:var(--textcolor);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  h1 {
+    font-size: 60px ;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  intro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  intro h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color:aliceblue;
+  }
+  intro h3 {
+    font-size: 30px;
+  }
+   p a:hover  {
+    background-color:rgba(24, 194, 216, 0.486);
+    border-radius: 30%;
+
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    flex-direction: row;
+    font-size: 25px;
+    padding:20px 10px;
+    color:azure;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+    
+  nav a {
+    color: #b9c6ae;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#8ac4e6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+  
+  intro {
+    padding: 10px; 
+    color: #b9c6ae;
+  }
+ 
+  intro div img {
+    margin: 10%;
+    border-radius: 20px;
+    border-radius: 30%;
+    object-fit: contain;
+  } 
+      
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    
+  }
+  main div img {
+    border-radius: 20px;
+  }
+  p {
+    font-size: 23px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-overflow: clip;
+    margin:20px 0;
+  }
+  main h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+  }
+
+  main h3 {
+    text-align: left;
+    font-size: 35px;
+    color:#8ac4e6;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 60%;
+    padding: 5px;
+  }  
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    background:var(--bgcolor2);
+    color:white;
+    margin-top: auto;
+  }
+footer img {
+    height:130px;
+    width: 140px;
+    padding:20px;
+    border-radius: 50px;
+} 
+a {
+    color:white;
+    text-decoration: none;
+}
+  
+  a:hover {
+    color: var(--bgcolor3);
+    size: larger;
+  }
+
+  .form h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+  }
+  .form h3 {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-style: italic;
+  }
+  
+  .social{
+      display: flex;
+      flex-direction: horizontal;
+  }
+ 
+  #social img {
+    opacity: 50%;
+  }
+
+  #social:hover img {
+    opacity:100%;
+    transform: scale(1.1);  
+  }  
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 15px ;
+    background-color: #90ceca;
+  }
+  
+  input[type=submit] {
+    background-color:;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color:  var(--bgcolor0);
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--bgcolor2);
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: darkcyan;
+    padding: 10px;
+    
+  }
+  label {
+      font-size: 20px;
+      color: #073b3f;
+      font-style: italic;
+
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
