@@ -4,7 +4,7 @@ This is a little bit about me. I made a portfolio website as per the given crite
 ## Project Goals:
 -To create an impressive and attractive portfolio which will help for career develpoment and job search.
 -Helps viewers to know more about myself.
--To list my qualifications, workexperiences and my projects.
+-To list my qualifications, work experiences and my projects.
 
 ## Project Accepntance Criteria
 GIVEN I need to sample a potential employee's previous work
@@ -29,14 +29,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 -On presenting with developer's first application, the application image should be larger than others.
 -On clicking the images of application, page takes us to that deployed application.
 -Upon resizing the page or view the screen on different devices, the page is presented with repsonsive layout that adapts to the viewport.
+-Added a link to Resume.
+-Added a link to social media contacts like linkedin, instagram, facebook, github, gitlab, email and contact.
+-Added media queries for responsive layouts.
+- Worked well on flex-box for arranging the web images.
+-All the link attached are clickable and working appropriately. 
 
 ## Project Website Screenshot:
 ![my website](https://user-images.githubusercontent.com/94458512/156045263-a63134b5-ddb1-4343-96a0-e1c486e2ce0f.jpg)
-## Project links :
-
-Deployed Website : https://reemmda99.github.io/my-portfolio/
-
-Github URL: https://github.com/ReemMDA99/my-portfolio
 
 ## Languages used:
 -HTML
@@ -75,5 +75,11 @@ SOFTWARE.
 -Youtube
 
 ## Contribution:
-This project was soley done bt Reem Ahmed.
+This project was soley done by Reem Ahmed.
+
+## Project links :
+
+Deployed Website : https://reemmda99.github.io/my-portfolio/
+
+Github URL: https://github.com/ReemMDA99/my-portfolio
 
