@@ -34,7 +34,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![my website](https://user-images.githubusercontent.com/94458512/156045263-a63134b5-ddb1-4343-96a0-e1c486e2ce0f.jpg)
 ## Project links :
 
-Deployed Website :
+Deployed Website : https://reemmda99.github.io/my-portfolio/
 
 Github URL: https://github.com/ReemMDA99/my-portfolio
 
