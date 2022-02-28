@@ -31,8 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 -Upon resizing the page or view the screen on different devices, the page is presented with repsonsive layout that adapts to the viewport.
 
 ## Project Website Screenshot:
-![Image to my Portfolio]("./assets/images/my website.jpg")
-
+![my website](https://user-images.githubusercontent.com/94458512/156045263-a63134b5-ddb1-4343-96a0-e1c486e2ce0f.jpg)
 ## Project links :
 
 Deployed Website :
