@@ -200,7 +200,6 @@ a {
   }
   
   input[type=submit] {
-    background-color:;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -217,9 +216,9 @@ a {
   .container {
     border-radius: 5px;
     background-color: darkcyan;
-    padding: 10px;
-    
+    padding: 30px;
   }
+    
   label {
       font-size: 20px;
       color: #073b3f;
