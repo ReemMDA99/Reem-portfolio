@@ -79,7 +79,7 @@ This project was soley done by Reem Ahmed.
 
 ## Project links :
 
-Deployed Website : https://reemmda99.github.io/my-portfolio/
+Deployed Website : https://reemmda99.github.io/Reem-portfolio/
 
-Github URL: https://github.com/ReemMDA99/my-portfolio
+Github URL: https://github.com/ReemMDA99/Reem-portfolio
 
